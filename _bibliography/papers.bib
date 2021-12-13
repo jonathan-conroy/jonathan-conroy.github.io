@@ -1,72 +1,42 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{conroy2022spanner,
+  author          = {Conroy, Jonathan and Csaba T\'oth},
+  journal         = {preprint},
+  title           = {Hop-Spanners for Geometric Intersection Graphs},
+  year            = {2021},
+  abstract        = {A t-spanner of a graph G=(V,E) is a subgraph H=(V,E') that contains a uv-path of length at most t for every uv \in E. It is known that every n-vertex graph admits a (2k-1)-spanner with O(n^{1+1/k}) edges for k \geq 1. This bound is the best possible for 1 \leq k \leq 9 and is conjectured to be optimal due to Erd\H{o}s' girth conjecture.
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+We study t-spanners for t \in \{2,3\} for geometric intersection graphs in the plane. These spanners are also known as t-hop spanners to emphasize the use of graph-theoretic distances (as opposed to Euclidean distances between the geometric objects or their centers).  We obtain the following results: 
+(1) Every n-vertex unit disk graph (UDG) admits a 2-hop spanner with O(n) edges; improving upon the previous bound of O(n log n). 
+(2) The intersection graph of n axis-aligned fat rectangles admits a 2-hop spanner with O(n log n) edges, and this bound is the best possible.
+(3) The intersection graph of n fat convex bodies in the plane admits a 3-hop spanner of with O(n log n) edges.
+(4) The intersection graph of n axis-aligned rectangles admits a 3-hop spanner of with O(n log^2 n) edges.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{conroy2021disinfection,
+  title={Robot Development and Path Planning for Indoor Ultraviolet Light Disinfection},
+  author    = {Conroy, Jonathan and
+               Christopher Thierauf and
+               Parker Rule and
+               Evan A. Krause and
+               Hugo Alves Akitaya and
+               Andrei Gonczi and
+               Matias Korman and
+               Matthias Scheutz},
+  journal   = {Proceedings of the IEEE International Conference on Robotics and Automation},
+  year      = {2021},
+  arxiv     = {2104.02913},
+  code      = {https://github.com/pjrule/covid-path-planning},
+  abstract  = {Regular irradiation of indoor environments with ultraviolet C (UVC) light has become a
+regular task for many indoor settings as a result of COVID-19, but current robotic systems
+attempting to automate it suffer from high costs and inefficient irradiation. In this paper, we
+propose a purpose-made inexpensive robotic platform with off-the-shelf components and stan-
+dard navigation software that, with a novel algorithm for finding optimal irradiation locations,
+addresses both shortcomings to offer affordable and efficient solutions for UVC irradiation. We
+demonstrate in simulations the efficacy of the algorithm and show a prototypical run of the
+autonomous integrated robotic system in an indoor environment. In our sample instances, our
+proposed algorithm reduces the time needed by roughly 30% while it increases the coverage by
+a factor of 35% (when compared to the best possible placement of a static light).}
 }
