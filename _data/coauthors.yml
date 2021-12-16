@@ -1,18 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Tóth":
+  - firstname: ["Csaba"]
+    url: http://csabatoth.org/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Thierauf":
+  - firstname: ["Christopher"]
+    url: https://www.cthierauf.com/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Rule":
+  - firstname: ["Parker"]
+    url: https://pjrule.me/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Krause": 
+  - firstname: ["Evan A."]
+    url: https://engineering.tufts.edu/cs/people/staff/evan-krause
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Akitaya":
+  - firstname: ["Hugo Alves"]
+    url: https://www.linkedin.com/in/hugo-akitaya-a9b5b9108/
+
+"Gonczi":
+  - firstname: ["Andrei"]
+    url: https://www.eecs.tufts.edu/~andrew/
+
+"Korman":
+  - firstname: ["Matias"]
+    url: https://engineering.tufts.edu/cs/people/faculty/matias-korman
+
+"Scheutz":
+  - firstname: ["Matthias"]
+    url: https://engineering.tufts.edu/cs/people/faculty/matthias-scheutz
