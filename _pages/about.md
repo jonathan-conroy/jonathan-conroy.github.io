@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: >
+description: #Undergraduate at Tufts University
 
 profile:
   align: right
