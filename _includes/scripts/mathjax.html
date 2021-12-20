@@ -7,6 +7,32 @@
     }
   };
 </script>
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [["$","$"], ["\\(","\\)"]],
+      processEscapes: true
+    },
+    "HTML-CSS": {
+      mtextFontInherit: true,
+      webFont: "STIX-Web"
+    }
+  });
+</script>
+
+<!-- Scale math. This doesn't quite solve the issue --- really, it is that the
+     font weight is too heavy, not that the size is too large. This is a
+     temporary fix. -->
+<style type="text/css">
+  .MathJax {
+    font-size: 105% !important;
+    /* font-weight: 100; */
+    /* font-family: inherit */
+  }
+</style>
+
 <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@{{ site.mathjax.version }}/es5/tex-mml-chtml.js"></script>
 <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 {% endif %}

@@ -15,7 +15,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a senior at Tufts University. I'm interested in computational geometry and graphs, and more generally in algorithms and data structures.
 
-I work with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/). Details on my research can be found [here](/publications).
+I work with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/). Details on my research can be found [here](/publications). A collection of my projects related to theoretical computer science can be found [here](/projects).
 
 The best way to contact me is by email: [Jonathan.Conroy@tufts.edu](mailto:Jonathan.Conroy@tufts.edu)
 <!-- A collection of smaller projects can be found [here](/projects). -->

@@ -7,18 +7,27 @@
     <div class="card hoverable">
       <div class="row g-0">
         {% if project.img %}
-        <div class="card-img col-md-6">
+        <div class="card-img col-sm-4">
           {% responsive_image_block %}
             path: {{ project.img }}
             alt: "project thumbnail"
           {% endresponsive_image_block %}
+          <a></a>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-8">
         {% else %}
         <div class="col-md-12">
         {% endif %}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+            {% if project.redirect %}
+            <a href="{{ project.redirect }}">
+            {% else %}
+            <a href="{{ project.url | relative_url }}">
+            {% endif %}
+            <h3 class="card-title">
+                {{ project.title }}
+              </h3>
+            </a>
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
