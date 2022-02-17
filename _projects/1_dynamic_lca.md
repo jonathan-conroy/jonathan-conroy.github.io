@@ -8,6 +8,4 @@ category: code
 redirect: https://github.com/6851-2021/Dynamic-LCA
 ---
 
-Placeholder project
-
-[test](https://github.com/6851-2021/Dynamic-LCA)
+https://github.com/6851-2021/Dynamic-LCA

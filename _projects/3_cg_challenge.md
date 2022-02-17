@@ -6,6 +6,3 @@ img: assets/img/disk_duality.png
 importance: 1
 category: ongoing
 ---
-
-Placeholder
-This is a test $$ uv $$-path.
