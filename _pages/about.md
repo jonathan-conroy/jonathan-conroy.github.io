@@ -13,9 +13,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a senior at Tufts University. I'm interested in computational geometry and graphs, and more generally in algorithms and data structures.
+I am a first year PhD student at Dartmouth College, where I am fortunate to be advised by [Hsien-Chih Chang](https://hcsoso.github.io/). I'm interested in computational geometry and graphs, and more generally in theoretical computer science. Prior to Dartmouth, I received a B.S. from Tufts University, where I worked with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/).
 
-I work with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/). Details on my research can be found [here](/publications). A collection of my projects related to theoretical computer science can be found [here](/projects).
-
-The best way to contact me is by email: [Jonathan.Conroy@tufts.edu](mailto:Jonathan.Conroy@tufts.edu)
-<!-- A collection of smaller projects can be found [here](/projects). -->
+The best way to contact me is by email: [first name].[last name].gr@dartmouth.edu
