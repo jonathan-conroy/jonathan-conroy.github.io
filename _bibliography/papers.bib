@@ -1,11 +1,56 @@
 ---
 ---
 
+@article{cclmst23a,
+  author          = {Hsien-Chih Chang and
+                    Jonathan Conroy and
+                    Hung Le and
+                    Lazar Milenković and
+                    Shay Solomon and
+                    Cuong Than},
+  title           = {Covering Planar Metrics (and Beyond): O(1) Trees Suffice},
+  journal         = {submitted},
+  year            = {2023},
+  abstract        = {<p>While research on the geometry of planar graphs has been active in the past decades, many properties of planar metrics remain mysterious.   This paper studies a fundamental aspect of the planar graph geometry: covering planar metrics by a small collection of simpler metrics.  Specifically, a <em> tree cover </em> of a metric space \((X, \delta)\)\ is a collection of trees, so that every pair of points \(u\)\ and \(v\)\ in \(X\)\ has a low-distortion path in at least one of the trees.</p>
+
+<p>The celebrated ``Dumbbell Theorem'' [ADMSS95] states that any low-dimensional Euclidean space admits a tree cover with \(O(1)\)\ trees and distortion \(1+\varepsilon\), for any fixed \(\varepsilon \in (0,1)\). This result has found numerous algorithmic applications, and has been generalized to the wider family of doubling metrics [BFN19].  Does the same result hold for planar metrics?  A positive answer would add another evidence to the well-observed connection between Euclidean/doubling metrics and planar metrics. </p>
+
+<p> In this work, we answer this fundamental question affirmatively. Specifically, we show that for any given fixed \(\varepsilon \in (0,1)\), any planar metric can be covered by \(O(1)\)\ trees with distortion \(1+\varepsilon\).  Our result for planar metrics follows from a rather general framework:  First we reduce the problem to constructing tree covers with <em> additive distortion </em>.  Then we introduce the notion of <em> shortcut partition </em>, and draw connection between shortcut partition and additive tree cover.  Finally we prove the existence of shortcut partition for any planar metric, using new insights regarding the grid-like structure of planar graphs.
+To demonstrate the power of our framework: 
+<ul>
+    <li>We establish additional tree cover results beyond planar metrics; in particular, we present an \(O(1)\)-size tree cover with distortion \(1+\varepsilon\)\ for <em> bounded treewidth </em> metrics; </li>
+    <li>We obtain several algorithmic applications in planar graphs from our tree cover.</li>
+</ul>
+</p>
+
+<p>The grid-like structure is a technical contribution that we believe is of independent interest. We showcase its applicability beyond tree cover by constructing a simpler and better embedding of planar graphs into \(O(1)\)-treewidth graphs with  small additive distortion, resolving an open problem in this line of research.</p>},
+  abbr            = {cclmst23a},
+  pdf             = {planar_tree_cover.pdf},
+}
+
+@article{cclmst23b,
+  author          = {Hsien-Chih Chang and
+                    Jonathan Conroy and
+                    Hung Le and
+                    Lazar Milenković and
+                    Shay Solomon and
+                    Cuong Than},
+  title           = {Resolving the Steiner Point Removal Problem in Planar Graphs via Shortcut Partitions},
+  journal         = {manuscript},
+  year            = {2023},
+  abstract        = {
+    Recently the authors [CCLMST23] introduced the notion of <em> shortcut partition </em> of planar graphs and obtained several results from the partition, including a <em> tree cover </em> with \(O(1)\)\ trees for planar metrics and an <em> additive embedding </em> into small treewidth graphs. In this note, we apply the same partition to resolve the <em> Steiner point removal (SPR) </em> problem in planar graphs:  Given any set \(K\)\ of <em> terminals </em> in an arbitrary edge-weighted planar graph \(G\), we construct a minor \(M\)\ of \(G\)\ whose vertex set is \(K\), which preserves the shortest-path distances between all pairs of terminals in \(G\)\ up to a <em> constant </em> factor. This resolves in the affirmative an open problem that has been asked repeatedly in literature.},
+  abbr            = {cclmst23b},
+  pdf             = {planar_SPR.pdf},
+}
+
 @article{conroy2022spanner,
   author          = {Conroy, Jonathan and Csaba T\'oth},
   title           = {Hop-Spanners for Geometric Intersection Graphs},
-  journal         = {Proceedings of the 38th International Symposium on Computational Geometry (SoCG'22)},
+  journal         = {Proceedings of the 38th International Symposium on Computational Geometry},
+  journal_abbr    = {SoCG'22},
   year            = {2022},
+  note            = {Invited to JoCG special issue.},
   abstract        = {A \(t\)-spanner of a graph \(G=(V,E)\)\ is a subgraph \(H=(V,E')\)\ that contains a \(uv\)-path of length at most \(t\)\ for every \(uv\in E\). It is known that every \(n\)-vertex graph admits a \((2k-1)\)-spanner with \(O(n^{1+1/k})\)\ edges for \(k\geq 1\). This bound is the best possible for \(1\leq k\leq 9\)\ and is conjectured to be optimal due to Erd\H{o}s' girth conjecture.
   
   We study \(t\)-spanners for \(t\in \{2,3\}\)\ for geometric intersection graphs in the plane. These spanners are also known as <em> \(t\)-hop spanners </em> to emphasize the use of graph-theoretic distances (as opposed to Euclidean distances between the geometric objects or their centers).  We obtain the following results: 
@@ -29,7 +74,8 @@
                Andrei Gonczi and
                Matias Korman and
                Matthias Scheutz},
-  journal   = {Proceedings of the 2021 IEEE International Conference on Robotics and Automation (ICRA'21)},
+  journal   = {Proceedings of the 2021 IEEE International Conference on Robotics and Automation},
+  journal_abbr = {ICRA'21},
   year      = {2021},
   arxiv     = {2104.02913},
   code      = {https://github.com/pjrule/covid-path-planning},
