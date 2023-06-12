@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: #Undergraduate at Tufts University
+description: #PhD student at Dartmouth College
 
 profile:
   align: right
@@ -13,6 +13,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a first year PhD student at Dartmouth College, where I am fortunate to be advised by [Hsien-Chih Chang](https://hcsoso.github.io/). I'm interested in metric embedding, graph algorithms, and computational geometry. Prior to Dartmouth, I received a B.S. from Tufts University, where I worked with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/).
+I am a first year PhD student at Dartmouth College, where I am fortunate to be advised by [Hsien-Chih Chang](https://hcsoso.github.io/). I'm interested in data structures and algorithms --- particularly metric embedding, graph algorithms, and computational geometry. Prior to Dartmouth, I received a B.S. from Tufts University, where I worked with the [Tufts Computational Geometry Research Group](http://www.cs.tufts.edu/research/geometry/).
 
 The best way to contact me is by email: [first name].[last name].gr@dartmouth.edu
