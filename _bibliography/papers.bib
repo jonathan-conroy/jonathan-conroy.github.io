@@ -1,6 +1,26 @@
 ---
 ---
 
+@article{cclmst23b,
+  author          = {Hsien-Chih Chang and
+                    Jonathan Conroy and
+                    Hung Le and
+                    Lazar Milenković and
+                    Shay Solomon and
+                    Cuong Than},
+  title           = {Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More},
+  journal         = {submitted},
+  year            = {2023},
+  abstract        = {
+    <p> The notion of shortcut partition, introduced recently by Chang, Conroy, Le, Milenković, Solomon, and Than [CCL+23], is a new type of graph partition into low-diameter clusters. Roughly speaking, the shortcut partition guarantees that for every two vertices u and v in the graph, there exists a path between \(u\)\ and \(v\)\ that intersects only a few clusters. They proved that any planar graph admits a shortcut partition and gave several applications, including a construction of tree cover for arbitrary planar graphs with stretch \(1+\varepsilon\)\ and O(1) many trees for any fixed \(\varepsilon \in (0, 1)\). However, the construction heavily exploits planarity in multiple steps, and is thus inherently limited to planar graphs. </p>
+    
+    <p> In this work, we breach the “planarity barrier” to construct a shortcut partition for \(K_r\)-minor-free graphs for any \(r\). To this end, we take a completely different approach — our key contribution is a novel deterministic variant of the cop decomposition in minor-free graphs [And86, AGG+14]. Our shortcut partition for \(K_r\) -minor-free graphs yields several direct applications. Most notably, we construct the first optimal distance oracle for \(K_r\)-minor-free graphs, with \(1 + \varepsilon\) stretch, linear space, and constant query time for any fixed \(\varepsilon \in (0, 1)\). The previous best distance oracle [AG06] uses \(O(n \log n)\)\ space and \(O(\log n)\) query time, and its construction relies on Robertson-Seymour structural theorem and other sophisticated tools. We also obtain the first tree cover of \(O(1)\)\ size for minor-free graphs with stretch \(1 + \varepsilon\), while the previous best \((1 + \varepsilon)\)-tree cover has size \(O(\log^2 n)\)\ [BFN19]. </p>
+
+    <p> As a highlight of our work, we employ our shortcut partition to resolve a major open problem — the Steiner point removal (SPR) problem: Given any set \(K\)\ of terminals in an arbitrary edge-weighted planar graph \(G\), is it possible to construct a minor \(M\)\ of \(G\)\ whose vertex set is \(K\), which preserves the shortest-path distances between all pairs of terminals in \(G\)\ up to a constant factor? Positive answers to the SPR problem were only known for very restricted classes of planar graphs: trees [Gup01], outerplanar graphs [BG08], and series-parallel graphs [HL22]. We resolve the SPR problem in the affirmative for any planar graph, and more generally for any \(K_r\)-minor-free graph for any fixed \(r\). To achieve this result, we prove the following general reduction and combine it with our new shortcut partition: For any graph family closed under taking subgraphs, the existence of a shortcut partition yields a positive solution to the SPR problem.</p>},
+  abbr            = {cclmst23b},
+  arxiv           = {2308.00555},
+}
+
 @article{cclmst23a,
   author          = {Hsien-Chih Chang and
                     Jonathan Conroy and
@@ -9,7 +29,8 @@
                     Shay Solomon and
                     Cuong Than},
   title           = {Covering Planar Metrics (and Beyond): O(1) Trees Suffice},
-  journal         = {submitted},
+  journal         = {Proceedings of the 64th Symposium on Foundations of Computer Science},
+  journal_abbr    = {FOCS'23},
   year            = {2023},
   abstract        = {<p>While research on the geometry of planar graphs has been active in the past decades, many properties of planar metrics remain mysterious.   This paper studies a fundamental aspect of the planar graph geometry: covering planar metrics by a small collection of simpler metrics.  Specifically, a <em> tree cover </em> of a metric space \((X, \delta)\)\ is a collection of trees, so that every pair of points \(u\)\ and \(v\)\ in \(X\)\ has a low-distortion path in at least one of the trees.</p>
 
@@ -26,22 +47,6 @@ To demonstrate the power of our framework:
 <p>The grid-like structure is a technical contribution that we believe is of independent interest. We showcase its applicability beyond tree cover by constructing a simpler and better embedding of planar graphs into \(O(1)\)-treewidth graphs with  small additive distortion, resolving an open problem in this line of research.</p>},
   abbr            = {cclmst23a},
   arxiv           = {2306.06215},
-}
-
-@article{cclmst23b,
-  author          = {Hsien-Chih Chang and
-                    Jonathan Conroy and
-                    Hung Le and
-                    Lazar Milenković and
-                    Shay Solomon and
-                    Cuong Than},
-  title           = {Resolving the Steiner Point Removal Problem in Planar Graphs via Shortcut Partitions},
-  journal         = {manuscript},
-  year            = {2023},
-  abstract        = {
-    Recently the authors [CCLMST23] introduced the notion of <em> shortcut partition </em> of planar graphs and obtained several results from the partition, including a <em> tree cover </em> with \(O(1)\)\ trees for planar metrics and an <em> additive embedding </em> into small treewidth graphs. In this note, we apply the same partition to resolve the <em> Steiner point removal (SPR) </em> problem in planar graphs:  Given any set \(K\)\ of <em> terminals </em> in an arbitrary edge-weighted planar graph \(G\), we construct a minor \(M\)\ of \(G\)\ whose vertex set is \(K\), which preserves the shortest-path distances between all pairs of terminals in \(G\)\ up to a <em> constant </em> factor. This resolves in the affirmative an open problem that has been asked repeatedly in literature.},
-  abbr            = {cclmst23b},
-  arxiv           = {2306.06235},
 }
 
 @article{conroy2022spanner,
