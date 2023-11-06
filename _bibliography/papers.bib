@@ -9,9 +9,10 @@
                     Shay Solomon and
                     Cuong Than},
   title           = {Shortcut Partitions in Minor-Free Graphs: Steiner Point Removal, Distance Oracles, Tree Covers, and More},
-  journal         = {submitted},
-  year            = {2023},
-  abstract        = {
+  journal         = {Proceedings of the 2024 Symposium on Discrete Algorithms},
+    journal_abbr    = {SODA'24},
+    year            = {2024},
+    abstract        = {
     <p> The notion of shortcut partition, introduced recently by Chang, Conroy, Le, Milenković, Solomon, and Than [CCL+23], is a new type of graph partition into low-diameter clusters. Roughly speaking, the shortcut partition guarantees that for every two vertices u and v in the graph, there exists a path between \(u\)\ and \(v\)\ that intersects only a few clusters. They proved that any planar graph admits a shortcut partition and gave several applications, including a construction of tree cover for arbitrary planar graphs with stretch \(1+\varepsilon\)\ and O(1) many trees for any fixed \(\varepsilon \in (0, 1)\). However, the construction heavily exploits planarity in multiple steps, and is thus inherently limited to planar graphs. </p>
     
     <p> In this work, we breach the “planarity barrier” to construct a shortcut partition for \(K_r\)-minor-free graphs for any \(r\). To this end, we take a completely different approach — our key contribution is a novel deterministic variant of the cop decomposition in minor-free graphs [And86, AGG+14]. Our shortcut partition for \(K_r\) -minor-free graphs yields several direct applications. Most notably, we construct the first optimal distance oracle for \(K_r\)-minor-free graphs, with \(1 + \varepsilon\) stretch, linear space, and constant query time for any fixed \(\varepsilon \in (0, 1)\). The previous best distance oracle [AG06] uses \(O(n \log n)\)\ space and \(O(\log n)\) query time, and its construction relies on Robertson-Seymour structural theorem and other sophisticated tools. We also obtain the first tree cover of \(O(1)\)\ size for minor-free graphs with stretch \(1 + \varepsilon\), while the previous best \((1 + \varepsilon)\)-tree cover has size \(O(\log^2 n)\)\ [BFN19]. </p>
