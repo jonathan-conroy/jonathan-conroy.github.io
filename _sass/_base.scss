@@ -56,6 +56,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
+  // margin-top: 5px;
   width: 163px;
 
   .address {
@@ -63,7 +64,7 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
-      display: inline-block;
+      display: inline;
       margin: 0;
     }
   }
