@@ -1,7 +1,0 @@
-hop_spanners:
-  img: udg_neighbor.jpg
-  alt: a point p, its neighbors N(p), and the intermediate set I(p)
-
-disinfection:
-  img: room_preprocessing.png
-  alt: comparison of Douglas-Peuker (blue) and rectilinear (red) simplification algorithms for room reconstruction for LiDAR data
