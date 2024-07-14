@@ -79,17 +79,17 @@
         {%- endif -%}
 
         {%- if author_is_self -%}
-        {% comment %}  {% endcomment %}
+          {% comment %}  {% endcomment %}
         {%- else -%}
-
-          {% comment %} Add "and" to last entry
-                        Require > 2 authors for adding "," because I (one author) do not count
+          {% comment %}
+            Add "and" to last entry
+            Require > 2 authors for adding "," because I (one author) do not count
           {% endcomment %}
-          {%- if forloop.length > 2 -%} 
+          {%- if forloop.length > 2 -%}
             {% comment %} {% if forloop.first == false %},&nbsp;{% endif %} {% endcomment %}
             {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
           {% endif %}
-          
+
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
@@ -98,12 +98,12 @@
           {%- else -%}
             {{- author.first }}
             {{ author_last_html -}}
-            {% comment %} Add the trailing comma
-                        Require > 2 authors for adding "," because I (one author) do not count
+            {% comment %}
+              Add the trailing comma
+              Require > 2 authors for adding "," because I (one author) do not count
             {% endcomment %}
             {%- if forloop.length > 2 and forloop.last == false -%},{% endif %}
           {% endif %}
-
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -158,7 +158,8 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% if entry.journal_abbr %}
-        in {{entry.journal}} <b>[{{entry.journal_abbr}}]</b>,
+        in {{ entry.journal }}
+        <b>[{{ entry.journal_abbr }}]</b>,
       {% else %}
         {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
       {% endif %}
@@ -188,7 +189,7 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     {% comment %} <div class="periodical"> {% endcomment %}
-      {{ periodical | strip }}.
+    {{ periodical | strip }}.
     {% comment %} </div> {% endcomment %}
     <div class="periodical">
       <b>{{ entry.note | strip }}</b>

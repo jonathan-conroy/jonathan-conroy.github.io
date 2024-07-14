@@ -16,7 +16,7 @@ nav_order: 3
 <ul>
     <li> <b>Fall 2023</b>: Head TA for CS 30 (Discrete Math) at Dartmouth
     <ul>
-        <li> <b> Received the 2023-2024 Patrick Tsang Memorial "Best TA" Award from the CS department! </b> </li>
+        <li> <b>Received the 2023-2024 Patrick Tsang Memorial "Best TA" Award from the CS department!</b> </li>
     </ul>
     <div style="line-height:50%;"><br></div>
     </li>

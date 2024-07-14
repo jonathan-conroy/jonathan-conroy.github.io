@@ -8,9 +8,9 @@ profile:
   align: right
   image: profile.jpg
   address: >
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 nav_order: 1
 ---
