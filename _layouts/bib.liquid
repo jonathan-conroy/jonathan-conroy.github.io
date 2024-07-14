@@ -57,6 +57,7 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
+      with&nbsp;
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
@@ -77,16 +78,18 @@
           {% endfor %}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
-        {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+        {% comment %}  {% endcomment %}
         {%- else -%}
+
+          {% comment %} Add "and" to last entry
+                        Require > 2 authors for adding "," because I (one author) do not count
+          {% endcomment %}
+          {%- if forloop.length > 2 -%} 
+            {% comment %} {% if forloop.first == false %},&nbsp;{% endif %} {% endcomment %}
+            {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {% endif %}
+          
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
@@ -95,7 +98,12 @@
           {%- else -%}
             {{- author.first }}
             {{ author_last_html -}}
+            {% comment %} Add the trailing comma
+                        Require > 2 authors for adding "," because I (one author) do not count
+            {% endcomment %}
+            {%- if forloop.length > 2 and forloop.last == false -%},{% endif %}
           {% endif %}
+
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
@@ -149,7 +157,11 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% if entry.journal_abbr %}
+        in {{entry.journal}} <b>[{{entry.journal_abbr}}]</b>,
+      {% else %}
+        {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+      {% endif %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
@@ -175,11 +187,11 @@
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% comment %} <div class="periodical"> {% endcomment %}
+      {{ periodical | strip }}.
+    {% comment %} </div> {% endcomment %}
     <div class="periodical">
-      {{ periodical | strip }}
-    </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
+      <b>{{ entry.note | strip }}</b>
     </div>
 
     <!-- Links/Buttons -->
@@ -268,6 +280,8 @@
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
               class="altmetric-embed"
+              data-hide-no-mentions="true"
+              data-hide-less-than="15"
               data-badge-type="2"
               data-badge-popover="right"
               {% if entry.altmetric != blank and entry.altmetric != 'true' %}
@@ -295,6 +309,7 @@
               {% else %}
                 data-pmid="{{ entry.pmid }}"
               {% endif %}
+              data-hide-zero-citations="true"
               data-style="small_rectangle"
               data-legend="hover-right"
               style="margin-bottom: 3px;"

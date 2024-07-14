@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Tóth":
+  - firstname: ["Csaba"]
+    # url: http://csabatoth.org/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Thierauf":
+  - firstname: ["Christopher"]
+    # url: https://www.cthierauf.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Rule":
+  - firstname: ["Parker"]
+    # url: https://pjrule.me/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Krause": 
+  - firstname: ["Evan A."]
+    # url: https://engineering.tufts.edu/cs/people/staff/evan-krause
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Akitaya":
+  - firstname: ["Hugo"]
+    # url: https://www.linkedin.com/in/hugo-akitaya-a9b5b9108/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Gonczi":
+  - firstname: ["Andrei"]
+    # url: https://www.eecs.tufts.edu/~andrew/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Korman":
+  - firstname: ["Matias"]
+    # url: https://engineering.tufts.edu/cs/people/faculty/matias-korman
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Scheutz":
+  - firstname: ["Matthias"]
+    # url: https://engineering.tufts.edu/cs/people/faculty/matthias-scheutz
