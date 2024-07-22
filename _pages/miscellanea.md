@@ -29,7 +29,7 @@ nav_order: 3
 <br>
 <h2>service</h2>
 <ul>
-<li> <b>Reviewer for:</b> SoCG 2023, STOC 2024, ICALP 2024, ESA 2024, Computational Geometry: Theory and Applications </li>
+<li> <b>Reviewer for:</b> SoCG 2023, STOC 2024, ICALP 2024, ESA 2024, SODA 2025, Computational Geometry: Theory and Applications </li>
 </ul>
 
 <br>
@@ -37,5 +37,5 @@ nav_order: 3
 <ul>
     <li> <b><a href="https://github.com/6851-2021/Dynamic-LCA">Dynamic Lowest Common Ancestor</a>:</b>  Implementation of a data structure for the dynamic LCA problem, based on Gabow's solution. There is also a <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_writeup.pdf">writeup</a> on the implementation and performance analysis, and a <a href="https://www.youtube.com/watch?v=Rl9SSocnKnA">presentation</a> with <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_slides.pdf">slides</a>. This was a final project for 6.851 Advanced Data Structures (at MIT) in 2021. </li>
     <!--  -->
-    <li> <b><a href="https://github.com/jonathan-conroy/duality-visualization/tree/main">Disk Intersection Via Duality</a>:</b>  Visualization of an algorithm to compute the intersection of disks that intersect at the origin, via a series of duality transforms that reduce the problem to finding a convex hull. This was a final project for Comp163 Computational Geometry (at Tufts) in 2020.</li>
+    <li> <b><a href="https://github.com/jonathan-conroy/duality-visualization/tree/main">Disk Intersection Via Duality</a>:</b>  Visualization of an algorithm to compute the intersection of disks that intersect at the origin, via a series of duality transforms that reduce the problem to finding a convex hull. This was a final project for Comp 163 Computational Geometry (at Tufts) in 2020.</li>
 </ul>
