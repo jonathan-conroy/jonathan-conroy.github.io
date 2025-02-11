@@ -14,6 +14,7 @@ nav_order: 3
 
 <h2>teaching</h2>
 <ul>
+    <li> <b>Winter 2025</b>: Head TA for CS 30 (Discrete Math) at Dartmouth </li>
     <li> <b>Fall 2023</b>: Head TA for CS 30 (Discrete Math) at Dartmouth
     <ul>
         <li> <b>Received the 2023-2024 Patrick Tsang Memorial "Best TA" Award from the CS department!</b> </li>
@@ -29,7 +30,7 @@ nav_order: 3
 <br>
 <h2>service</h2>
 <ul>
-<li> <b>Reviewer for:</b> SoCG 2023, STOC 2024, ICALP 2024, ESA 2024, SODA 2025, Computational Geometry: Theory and Applications </li>
+<li> <b>Reviewer for:</b> SoCG (2023, 2025), STOC (2024), ICALP (2024), ESA (2024), SODA (2025), Computational Geometry: Theory and Applications </li>
 </ul>
 
 <br>
