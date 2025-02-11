@@ -37,7 +37,7 @@ nav_order: 3
 <h2>code</h2>
 <ul>
     <li> <b><a href="https://github.com/6851-2021/Dynamic-LCA">Dynamic Lowest Common Ancestor</a>:</b>  Implementation of a data structure for the dynamic LCA problem, based on Gabow's solution. 
-    <!-- There is also a <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_writeup.pdf">writeup</a> on the implementation and performance analysis, and a <a href="https://www.youtube.com/watch?v=Rl9SSocnKnA">presentation</a> with <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_slides.pdf">slides</a>. -->
+    There is also a <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_writeup.pdf">writeup</a> on the implementation and performance analysis, and a <a href="https://www.youtube.com/watch?v=Rl9SSocnKnA">presentation</a> with <a href="https://jonathan-conroy.github.io/assets/pdf/dynamic_lca_slides.pdf">slides</a>.
     This was a final project for 6.851 Advanced Data Structures (at MIT) in 2021.
     </li>
     <!--  -->
