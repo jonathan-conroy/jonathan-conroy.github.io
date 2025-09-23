@@ -7,7 +7,7 @@
             "abbreviatedName": "FOCS 2025",
             "year": "2025"
         },
-        "note": "[Coming soon!]"
+        "links": [["arXiv", "https://arxiv.org/abs/2509.17226"]]
     },
     {
         "title": "How to Protect Yourself from Threatening Skeletons: Optimal Padded Decompositions for Minor-Free Graphs",
