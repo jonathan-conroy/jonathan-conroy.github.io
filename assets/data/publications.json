@@ -1,4 +1,9 @@
-[
+[   {
+        "title": "Cutting Planarians: Planar Emulators for String Graphs",
+        "authors": ["Hsien-Chih Chang", "Zihan Tan", "Da Wei Zheng"],
+        "conference": {},
+        "note": "in submission. A subset of our results appear as a <a href=\"https://arxiv.org/abs/2510.21700\">manuscript on arXiv</a>"
+    }, 
     {
         "title": "Distance Approximating Minors for Planar and Minor-Free Graphs",
         "authors": ["Hsien-Chih Chang"],
@@ -8,6 +13,16 @@
             "year": "2025"
         },
         "links": [["arXiv", "https://arxiv.org/abs/2509.17226"]]
+    },
+    {
+        "title": "Clustering in Varying Metrics",
+        "authors": ["Deeparnab Chakrabarty", "Ankita Sarkar"],
+        "conference": {
+            "fullName": "45th Foundations of Software Technology and Theoretical Computer Science",
+            "abbreviatedName": "FSTTCS 2025",
+            "year": "2025"
+        },
+        "links": [["arXiv", "https://arxiv.org/abs/2510.07860"]]
     },
     {
         "title": "How to Protect Yourself from Threatening Skeletons: Optimal Padded Decompositions for Minor-Free Graphs",
