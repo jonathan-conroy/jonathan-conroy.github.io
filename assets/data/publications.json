@@ -1,8 +1,12 @@
 [   {
         "title": "Cutting Planarians: Planar Emulators for String Graphs",
         "authors": ["Hsien-Chih Chang", "Zihan Tan", "Da Wei Zheng"],
-        "conference": {},
-        "note": "in submission. A subset of our results appear as a <a href=\"https://arxiv.org/abs/2510.21700\">manuscript on arXiv</a>"
+        "conference": {
+            "fullName": "58th Symposium on Theory of Computing",
+            "abbreviatedName": "STOC 2026",
+            "year": "2026"
+        },
+        "note": "[arXiv coming soon! A subset of our results appear as a preprint <a href=\"https://arxiv.org/abs/2510.21700\">here</a>]"
     }, 
     {
         "title": "Distance Approximating Minors for Planar and Minor-Free Graphs",
@@ -12,7 +16,8 @@
             "abbreviatedName": "FOCS 2025",
             "year": "2025"
         },
-        "links": [["arXiv", "https://arxiv.org/abs/2509.17226"]]
+        "links": [["arXiv", "https://arxiv.org/abs/2509.17226"],
+                  ["slides", "../assets/pdf/focs25-dam-slides.pdf"]]
     },
     {
         "title": "Clustering in Varying Metrics",
@@ -28,7 +33,7 @@
         "title": "How to Protect Yourself from Threatening Skeletons: Optimal Padded Decompositions for Minor-Free Graphs",
         "authors": ["Arnold Filtser"],
         "conference": {
-            "fullName": "57th ACM Symposium on Theory of Computing",
+            "fullName": "57th Symposium on Theory of Computing",
             "abbreviatedName": "STOC 2025",
             "year": "2025"
         },
