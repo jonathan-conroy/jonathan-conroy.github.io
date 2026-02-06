@@ -6,8 +6,9 @@
 function createNameString(names) {
   if (names.length === 0) return ""; // No names provided
   if (names.length === 1) return names[0]; // Only one name
+  if (names.length === 2) return names[0] + " and " + names[1]; // Two names
 
-  // If there are two or more names, join them with commas and add ", and" before the last one.
+  // If there are more than two names, join them with commas and add ", and" before the last one.
   return names.slice(0, -1).join(", ") + ", and " + names[names.length - 1];
 }
 

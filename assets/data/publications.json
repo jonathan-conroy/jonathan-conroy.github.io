@@ -1,4 +1,14 @@
 [   {
+        "title": "Dynamic Light Spanners in Doubling Metrics",
+        "authors": ["Sujoy Bhore", "Arnold Filter"],
+        "conference": {
+            "fullName": "42nd International Symposium on Computational Geometry",
+            "abbreviatedName": "SoCG 2026",
+            "year": "2026"
+        },
+        "note": "[arXiv coming soon!]"
+    }, 
+    {
         "title": "Cutting Planarians: Planar Emulators for String Graphs",
         "authors": ["Hsien-Chih Chang", "Zihan Tan", "Da Wei Zheng"],
         "conference": {
