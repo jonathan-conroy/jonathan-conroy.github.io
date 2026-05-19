@@ -1,4 +1,10 @@
 [   {
+        "title": "DAG Covers: The Steiner Point Effect",
+        "authors": ["Sujoy Bhore", "Hsien-Chih Chang", "Arnold Filter", "Eunjin Oh", "Nicole Wein", "Da Wei Zheng"],
+        "note": "in submission.",
+        "links":[["arXiv", "https://arxiv.org/abs/2603.23490"]]
+    }, 
+    {
         "title": "Dynamic Light Spanners in Doubling Metrics",
         "authors": ["Sujoy Bhore", "Arnold Filter"],
         "conference": {
@@ -6,7 +12,7 @@
             "abbreviatedName": "SoCG 2026",
             "year": "2026"
         },
-        "note": "[arXiv coming soon!]"
+        "links":[["arXiv", "https://arxiv.org/abs/2603.23490"]]
     }, 
     {
         "title": "Cutting Planarians: Planar Emulators for String Graphs",
