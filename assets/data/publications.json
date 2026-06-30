@@ -1,12 +1,16 @@
 [   {
         "title": "DAG Covers: The Steiner Point Effect",
         "authors": ["Sujoy Bhore", "Hsien-Chih Chang", "Arnold Filter", "Eunjin Oh", "Nicole Wein", "Da Wei Zheng"],
-        "note": "in submission.",
+        "conference": {
+            "fullName": "European Symposium on Algorithms 2026",
+            "abbreviatedName": "ESA 2026",
+            "year": "2026"
+        },
         "links":[["arXiv", "https://arxiv.org/abs/2604.04186"]]
     }, 
     {
         "title": "Dynamic Light Spanners in Doubling Metrics",
-        "authors": ["Sujoy Bhore", "Arnold Filter"],
+        "authors": ["Sujoy Bhore", "Arnold Filtser"],
         "conference": {
             "fullName": "42nd International Symposium on Computational Geometry",
             "abbreviatedName": "SoCG 2026",
@@ -24,7 +28,8 @@
             "abbreviatedName": "STOC 2026",
             "year": "2026"
         },
-        "links":[["arXiv", "https://arxiv.org/abs/2510.21700"]]
+        "links":[["arXiv", "https://arxiv.org/abs/2510.21700"],
+                 ["slides", "../assets/pdf/stoc26-planarians.pdf"]]
     }, 
     {
         "title": "Distance Approximating Minors for Planar and Minor-Free Graphs",
